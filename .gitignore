@@ -1,0 +1,33 @@
+# Go Project .gitignore list:
+# Secrets
+.env
+
+# Compiled Go files
+*.o
+*.out
+*.exe
+
+# Dependency directories
+vendor/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IDE files
+.idea/
+.zed/
+*.swp
+
+# Test coverage files
+coverage.out
+
+# Build artifacts
+bin/
+dist/
+pkg/
+
+# OS
+.DS_Store
+Thumbs.db
